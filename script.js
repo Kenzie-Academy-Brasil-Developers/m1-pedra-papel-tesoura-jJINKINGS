@@ -11,7 +11,7 @@ function playRockPaperScissor (player1, player2) {
         return "Jogador 2 venceu!";
     }
     else if((player1 === rock && player2 === rock)||(player1 === paper && player2 === paper)||(player1 === scissor && player2 === scissor)) {
-        return "Empate!"
+        return "Empate!";
     }
 }
 
